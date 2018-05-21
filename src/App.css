@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.crypto-list {
+  list-style: none;
+}
+
+.crypto-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.crypto-list__item-image {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.crypto-list__item-name {
+  margin-right: 10px;
+}
